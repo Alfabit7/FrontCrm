@@ -12,16 +12,16 @@
     <header class="header">
         <h1 class="header__title">Гараж №1</h1>
     </header>
-    <div class="nav__main__buttons">
-        <button class="nav__btn">Сохранить изменения</button>
-        <button class="nav__btn">Экспорт</button>
-        <button class="nav__btn">Импорт</button>
+    <div class="nav-buttons">
+        <button class="nav-buttons__btn nav-buttons__btn-save ">Сохранить изменения</button>
+        <button class="nav-buttons__btn nav-buttons__btn-export ">Экспорт</button>
+        <button class="nav-buttons__btn nav-buttons__btn-import ">Импорт</button>
     </div>
 
-    <section class="base">
-        <table class="base__table">
-            <caption class="base__description">
-                <h1 class="base__title"> Основные сведения</h1>
+    <section class="base-info">
+        <table class="main-table">
+            <caption class="table-description main-table_description">
+                <h1> Основные сведения</h1>
             </caption>
             <thead>
                 <th>ID гаража</th>
@@ -84,354 +84,403 @@
                     <td>Data</td>
                     <td>Data</td>
                 </tr>
+                <tr>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                </tr>
+                <tr>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                </tr>
+                <tr>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                    <td>Data</td>
+                </tr>
             </tbody>
         </table>
-        <div class="main__buttons">
-            <button class="base__btn" onclick="addRow">Добавить строку </button>
-            <button class="base__btn" onclick="removeRow">Удалить строку</button>
-            <button class="base__btn" onclick="cancelAction">Отменить действие</button>
-            <button class="base__btn" onclick="returnAction">Вернуть действие</button>
+        <div class="buttons-tables">
+            <button class="btn-control-table btn-control-table__add-row" onclick="addRow">Добавить строку </button>
+            <button class="btn-control-table btn-control-table__remov-row" onclick="removeRow">Удалить строку</button>
+            <button class="btn-control-table btn-control-table__cancle" onclick="cancelAction">Отменить действие</button>
+            <button class="btn-control-table btn-control-table__return" onclick="returnAction">Вернуть действие</button>
         </div>
     </section>
 
-
-
-    <div class="main">
-
+    <section class="wrp-tables">
         <!-- WRP LEFT -->
-        <div class="main__left">
-            <section class="main__left__rossreestr">
-                <table class="main__left__rossreestr__table">
-                    <caption>
-                        <h1> Сведения из Россреестра</h1>
-                    </caption>
-                    <thead>
-                        <tr>
-                            <th>Дата постановки на учёт в Россреестре</th>
-                            <th>Адрес гаража</th>
-                            <th>Кадастровый номер участка </th>
-                            <th>Кадастровый номер гаража</th>
-                            <th>Площадь гаража</th>
-                            <th>Комментарий</th>
+        <div class="wrp-left">
 
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
+            <table class="rossreestr-table">
+                <caption class="table-description rossreestr-table__description">
+                    <h1> Сведения из Россреестра</h1>
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Дата постановки на учёт в Россреестре</th>
+                        <th>Адрес гаража</th>
+                        <th>Кадастровый номер участка </th>
+                        <th>Кадастровый номер гаража</th>
+                        <th>Площадь гаража</th>
+                        <th>Комментарий</th>
 
-
-                        </tr>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
 
 
-                    </tbody>
-                </table>
+                    </tr>
 
-            </section>
-            <div class="main__buttons">
-                <button class="base__btn" onclick="addRow">Добавить строку </button>
-                <button class="base__btn" onclick="removeRow">Удалить строку</button>
-                <button class="base__btn" onclick="cancelAction">Отменить действие</button>
-                <button class="base__btn" onclick="returnAction">Вернуть действие</button>
+
+                </tbody>
+            </table>
+            <div class="buttons-tables">
+                <button class="btn-control-table btn-control-table__add-row" onclick="addRow">Добавить строку </button>
+                <button class="btn-control-table btn-control-table__remov-row" onclick="removeRow">Удалить строку</button>
+                <button class="btn-control-table btn-control-table__cancle" onclick="cancelAction">Отменить действие</button>
+                <button class="btn-control-table btn-control-table__return" onclick="returnAction">Вернуть действие</button>
+            </div>
+            <table class="tax-table">
+                <caption class="table-description tax-table__description ">
+                    <h1> Тарифы на 2025г.</h1>
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Дата</th>
+                        <th>Тариф Ежегодный взнос</th>
+                        <th>Тариф Целевой взнос</th>
+                        <th>Тариф электричества</th>
+                        <th>Тариф электричества повышенный</th>
+                        <th>Дата на тариф для э\э</th>
+                        <th>Комментарий</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+
+                    </tr>
+                    <tr>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+
+                    </tr>
+                    <tr>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <div class="buttons-tables">
+                <button class="btn-control-table btn-control-table__add-row" onclick="addRow">Добавить строку </button>
+                <button class="btn-control-table btn-control-table__remov-row" onclick="removeRow">Удалить строку</button>
+                <button class="btn-control-table btn-control-table__cancle" onclick="cancelAction">Отменить действие</button>
+                <button class="btn-control-table btn-control-table__return" onclick="returnAction">Вернуть действие</button>
             </div>
 
-            <section class="main__left__tax">
-                <table class="main__left__tax__table">
-                    <caption class="taxInfo__description">
-                        <h1> Тарифы на 2025г.</h1>
-                    </caption>
-                    <thead>
-                        <tr>
-                            <th>Дата</th>
-                            <th>Тариф Ежегодный взнос</th>
-                            <th>Тариф Целевой взнос</th>
-                            <th>Тариф электричества</th>
-                            <th>Тариф электричества повышенный</th>
-                            <th>Дата на тариф для э\э</th>
-                            <th>Комментарий</th>
-
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-
-                        </tr>
-                        <tr>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-
-                        </tr>
-                        <tr>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-
-                        </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                        </tr>
-                    </tfoot>
-                </table>
-            </section>
-            <div class="main__buttons">
-                <button class="base__btn" onclick="addRow">Добавить строку </button>
-                <button class="base__btn" onclick="removeRow">Удалить строку</button>
-                <button class="base__btn" onclick="cancelAction">Отменить действие</button>
-                <button class="base__btn" onclick="returnAction">Вернуть действие</button>
-            </div>
         </div>
-
         <!-- WRP RIGHT -->
-        <div class="wrp__right">
-            <section class="wrp__right__payments">
-                <table class="wrp__right__payments__tabel">
-                    <caption>
-                        <h1>Сведения по оплате взносов</h1>
-                    </caption>
-                    <thead>
-                        <tr>
+        <div class="wrp-right">
+            <table class="payments-tabel">
+                <caption class="table-description ">
+                    <h1>Сведения по оплате взносов</h1>
+                </caption class="table-description ">
+                <thead>
+                    <tr>
 
-                            <th colspan="2">Дата взноса еж.</th>
-                            <th>Ежегодный взнос сумма</th>
-                            <th>Дата взноса цел.</th>
-                            <th>Целевой взнос сумма</th>
-                            <th>Тип платежа нал\ безнал еж.</th>
-                            <th>Комментарий</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td colspan="2">Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
+                        <th colspan="2">Дата взноса еж.</th>
+                        <th>Ежегодный взнос сумма</th>
+                        <th>Дата взноса цел.</th>
+                        <th>Целевой взнос сумма</th>
+                        <th>Тип платежа нал\ безнал еж.</th>
+                        <th>Комментарий</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
 
-                        </tr>
-                        <tr>
-                            <td colspan="2">Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
 
-                        </tr>
-                        <tr>
-                            <td colspan="2">Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
 
-                        </tr>
-                        <tr>
-                            <td colspan="2">Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
 
-                        </tr>
-                        <tr>
-                            <td colspan="2">Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                        </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <th colspan="2">Итого</th>
-                            <td>Здесь будет сумма постолбцу </td>
-                            <th>Итого</th>
-                            <td>Здесь будет сумма постолбцу</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </tfoot>
-                </table>
-            </section>
-            <div class="main__buttons">
-                <button class="base__btn" onclick="addRow">Добавить строку </button>
-                <button class="base__btn" onclick="removeRow">Удалить строку</button>
-                <button class="base__btn" onclick="cancelAction">Отменить действие</button>
-                <button class="base__btn" onclick="returnAction">Вернуть действие</button>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="2">Итого</th>
+                        <td>Здесь будет сумма постолбцу </td>
+                        <th>Итого</th>
+                        <td>Здесь будет сумма постолбцу</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+            <div class="buttons-tables">
+                <button class="btn-control-table btn-control-table__add-row" onclick="addRow">Добавить строку </button>
+                <button class="btn-control-table btn-control-table__remov-row" onclick="removeRow">Удалить строку</button>
+                <button class="btn-control-table btn-control-table__cancle" onclick="cancelAction">Отменить действие</button>
+                <button class="btn-control-table btn-control-table__return" onclick="returnAction">Вернуть действие</button>
             </div>
 
-            <section class="wrp__right__electric__payments">
-                <table class="wrp__right__electric__payments__table">
-                    <caption>
-                        <h1>Сведения по оплате электричества</h1>
-                    </caption>
-                    <thead>
-                        <tr>
-                            <th colspan="2">Дата показаний электрического счётчика</th>
-                            <th>Дата оплаты</th>
-                            <th>Сумма оплаты</th>
-                            <th>Тип платежа нал\ безнал еж.</th>
-                            <th>Предыдущие показания эл. счётчика</th>
-                            <th>Дата снятия предыдущих показаний</th>
-                            <th>Комментарий</th>
+            <table class="electric-table">
+                <caption class="table-description ">
+                    <h1>Сведения по оплате электричества</h1>
+                </caption>
+                <thead>
+                    <tr>
+                        <th colspan="2">Дата показаний электрического счётчика</th>
+                        <th>Дата оплаты</th>
+                        <th>Сумма оплаты</th>
+                        <th>Тип платежа нал\ безнал еж.</th>
+                        <th>Предыдущие показания эл. счётчика</th>
+                        <th>Дата снятия предыдущих показаний</th>
+                        <th>Комментарий</th>
 
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td colspan="2">Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                            <td>Data</td>
-                        </tr>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                    </tr>
 
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <th colspan="3">Итого:</th>
-                            <td>Здесь будет сумма постолбцу </td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="3">Итого:</th>
+                        <td>Здесь будет сумма постолбцу </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
 
-                        </tr>
-                    </tfoot>
-                </table>
-            </section>
-            <div class="main__buttons">
-                <button class="base__btn" onclick="addRow">Добавить строку </button>
-                <button class="base__btn" onclick="removeRow">Удалить строку</button>
-                <button class="base__btn" onclick="cancelAction">Отменить действие</button>
-                <button class="base__btn" onclick="returnAction">Вернуть действие</button>
+                    </tr>
+                </tfoot>
+            </table>
+            <div class="buttons-tables">
+                <button class="btn-control-table btn-control-table__add-row" onclick="addRow">Добавить строку </button>
+                <button class="btn-control-table btn-control-table__remov-row" onclick="removeRow">Удалить строку</button>
+                <button class="btn-control-table btn-control-table__cancle" onclick="cancelAction">Отменить действие</button>
+                <button class="btn-control-table btn-control-table__return" onclick="returnAction">Вернуть действие</button>
             </div>
         </div>
-    </div>
+    </section>
+    <script src="index.js"></script>
 </body>
 
 </html>

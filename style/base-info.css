@@ -1,0 +1,33 @@
+.base-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #f20909;
+    padding: 10px;
+    height: 180px;
+    margin-bottom: 30px;
+}
+
+.main-table {
+    overflow: auto;
+    display: block;
+}
+
+.main-table thead {}
+
+
+.table-description {}
+
+.main-table_description {}
+
+.buttons-tables {}
+
+.btn-control-table {}
+
+.btn-control-table__add-row {}
+
+.btn-control-table__remov-row {}
+
+.btn-control-table__cancle {}
+
+.btn-control-table__return {}

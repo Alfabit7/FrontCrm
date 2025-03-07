@@ -1,9 +1,8 @@
 .nav__buttons {
-
     display: flex;
     gap: 20px;
 }
 
-.nav__btn {
+.nav-buttons__btn {
     margin-bottom: 10px;
 }
